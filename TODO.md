@@ -30,6 +30,9 @@ https://en.wikipedia.org/wiki/Vending_machine
   - [x] 「Insert 100 yen coin」ボタンを1回押してBuyボタンを2回押すと二回目は「Insert 100 yen to Buy Cola」とメッセージに出る
   - [x] 「Insert 100 yen coin」ボタンを2回押してBuyボタンを2回押すと二回目も「Cola」と表示される
 
+## お題2.1 自販機っぽいデザインにする
+
+
 ## お題3. ウーロン茶追加
 
 押したボタンに応じてコーラかウーロン茶が出ます。
