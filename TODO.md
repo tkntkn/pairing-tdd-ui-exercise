@@ -12,15 +12,23 @@ https://en.wikipedia.org/wiki/Vending_machine
 ## お題1. ボタンを押すとコーラが出る
 ボタンを押すとコーラが出ます。
 
-- [x] 「購入」ボタンがある
+- [x] 「Buy」ボタンがある
 - [x] "Please push Buy button." というメッセージが表示されている
-- [] 「購入」ボタンを押すと、メッセージ欄に「コーラ」と表示される。 
+- [x] 「Buy」ボタンを押すと、メッセージ欄に「Cola」と表示される。 
 
 
 ## お題2. お金を払う
 
 100円コインを投入してからボタンを押すとコーラが出ます。
 100円コイン以外は投入できません。
+
+- [x] メッセージを追記方式にする
+- [ ] 「Insert 100 yen coin」ボタンがある
+- [ ] 「Insert 100 yen coin」ボタンを押してBuyボタンを押すとコーラが出る
+- [ ] 「Insert 100 yen coin」ボタンを押さずにBuyボタンを押すと「Insert 100 yen to Buy Cola」とメッセージに出る
+- [ ] 「Insert 100 yen coin」ボタンを押した回数分だけコーラが買える
+  - [ ] 「Insert 100 yen coin」ボタンを1回押してBuyボタンを2回押すと二回目は「Insert 100 yen to Buy Cola」とメッセージに出る
+  - [ ] 「Insert 100 yen coin」ボタンを1回押してBuyボタンを2回押すと二回目も「Cola」と表示される
 
 ## お題3. ウーロン茶追加
 
