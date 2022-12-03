@@ -27,8 +27,8 @@ https://en.wikipedia.org/wiki/Vending_machine
 - [x] 「Insert 100 yen coin」ボタンを押してBuyボタンを押すとコーラが出る
 - [x] 「Insert 100 yen coin」ボタンを押さずにBuyボタンを押すと「Insert 100 yen to Buy Cola」とメッセージに出る
 - [ ] 「Insert 100 yen coin」ボタンを押した回数分だけコーラが買える
-  - [ ] 「Insert 100 yen coin」ボタンを1回押してBuyボタンを2回押すと二回目は「Insert 100 yen to Buy Cola」とメッセージに出る
-  - [ ] 「Insert 100 yen coin」ボタンを1回押してBuyボタンを2回押すと二回目も「Cola」と表示される
+  - [x] 「Insert 100 yen coin」ボタンを1回押してBuyボタンを2回押すと二回目は「Insert 100 yen to Buy Cola」とメッセージに出る
+  - [ ] 「Insert 100 yen coin」ボタンを2回押してBuyボタンを2回押すと二回目も「Cola」と表示される
 
 ## お題3. ウーロン茶追加
 
