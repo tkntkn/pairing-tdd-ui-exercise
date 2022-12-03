@@ -7,13 +7,17 @@
     "dev": "vite",
     "test": "vitest",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test-ct": "playwright test -c playwright-ct.config.ts"
   },
   "dependencies": {
+    "@playwright/test": "^1.28.1",
+    "playwright": "^1.28.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@playwright/experimental-ct-react": "^1.28.1",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^14.4.3",
