@@ -23,9 +23,9 @@ https://en.wikipedia.org/wiki/Vending_machine
 100円コイン以外は投入できません。
 
 - [x] メッセージを追記方式にする
-- [ ] 「Insert 100 yen coin」ボタンがある
-- [ ] 「Insert 100 yen coin」ボタンを押してBuyボタンを押すとコーラが出る
-- [ ] 「Insert 100 yen coin」ボタンを押さずにBuyボタンを押すと「Insert 100 yen to Buy Cola」とメッセージに出る
+- [x] 「Insert 100 yen coin」ボタンがある
+- [x] 「Insert 100 yen coin」ボタンを押してBuyボタンを押すとコーラが出る
+- [x] 「Insert 100 yen coin」ボタンを押さずにBuyボタンを押すと「Insert 100 yen to Buy Cola」とメッセージに出る
 - [ ] 「Insert 100 yen coin」ボタンを押した回数分だけコーラが買える
   - [ ] 「Insert 100 yen coin」ボタンを1回押してBuyボタンを2回押すと二回目は「Insert 100 yen to Buy Cola」とメッセージに出る
   - [ ] 「Insert 100 yen coin」ボタンを1回押してBuyボタンを2回押すと二回目も「Cola」と表示される
