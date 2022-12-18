@@ -1,5 +1,6 @@
 import { useCallback, useState } from 'react'
 import './App.css'
+import cola from './assets/cola.png'
 
 export function App() {
   const [inserted, setInserted] = useState(0)
@@ -17,14 +18,25 @@ export function App() {
 
   return (
     <div className="App">
-      <button onClick={handleBuyClick}>Buy</button>
-      <button onClick={handleInsert100Click} aria-label='Insert 100 yen coin'>Insert 100 yen coin</button>
-      <p data-testid="messages-count">{messages.length}</p>
-      <div aria-label='Messages'>
-        {messages.map((message, index) => {
-          const attributes = index === messages.length - 1 ? {"data-testid": "latest-message"} : {}
-          return <p key={index} {...attributes}>{message}</p>
-        }).reverse()}
+      <div id="bendingMachine">
+        <div id="itemDisplay">
+          <div className="item">
+            <div className="can">
+              <img src={cola} alt="コーラ" height="100" width="79"/>
+            </div>
+            <div className="price">100円</div>
+            <button className="buyButton"></button>
+          </div>
+        </div>
+        <div id="controls">
+          <div id="coinSlot"></div>
+          <div id="returnButton"><span>返却</span></div>
+          <div id="currentAmountDisplay"><span>¥1,200</span></div>
+        </div>
+        <div id="output">
+          <div className="boughtItem cola"></div>
+          <div className="boughtItem cola"></div>
+        </div>
       </div>
     </div>
   )
